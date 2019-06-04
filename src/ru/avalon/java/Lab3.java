@@ -49,6 +49,16 @@ public class Lab3 extends ConsoleUI<Commands> {
                  * TODO №7 Обработайте команду move
                  */
                 break;
+            case delete:
+                /*
+                 * TODO №7 Обработайте команду move
+                 */
+                break;
+            case rename:
+                /*
+                 * TODO №7 Обработайте команду move
+                 */
+                break;                
             case exit:
                 close();
                 break;
