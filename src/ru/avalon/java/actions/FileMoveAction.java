@@ -1,10 +1,16 @@
 package ru.avalon.java.actions;
 
+import java.nio.file.Path;
+
 /**
  * Действие, которое перемещает файлы в пределах дискового
  * пространства.
  */
 public class FileMoveAction implements Action {
+
+    public FileMoveAction(Path from, Path to) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     /**
      * {@inheritDoc}
      */
